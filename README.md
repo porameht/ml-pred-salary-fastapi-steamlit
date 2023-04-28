@@ -25,12 +25,15 @@ git clone https://github.com/yourusername/ml-pred-salary-fastapi-steamlit.git
 
 2. Change the working directory:
 
-`cd ml-pred-salary-fastapi-steamlit`
+```
+cd ml-pred-salary-fastapi-steamlit
+```
 
 3. Create a virtual environment:
 
-`python -m venv venv`
-
+```
+python -m venv venv
+```
 
 4. Activate the virtual environment:
 
@@ -52,14 +55,17 @@ pip install -r requirements.txt
 
 1. Start the FastAPI server:
 
+```
 uvicorn main:app --reload
+```
 
 2. Open another terminal window and activate the virtual environment as described in the installation step.
 
 3. Launch the Streamlit app:
 
+```
 streamlit run app.py
-
+```
 
 4. Visit the Streamlit app in your browser at `http://localhost:8501` and the FastAPI documentation at `http://localhost:8000/docs`.
 
